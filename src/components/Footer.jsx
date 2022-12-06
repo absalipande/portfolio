@@ -9,7 +9,7 @@ function Footer() {
         smooth={true}
         offset={50}
         duration={500}
-        className="text-center md:mb-3 block text-xl md:text-2xl font-bold"
+        className="text-center text-white dark:text-white md:mb-3 block text-xl md:text-2xl font-bold"
       >
         Amiel Brencis Salipande
       </Link>
