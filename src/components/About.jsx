@@ -13,11 +13,12 @@ function About() {
           I am an aspiring Software Developer with a deep passion for developing
           innovative software that will help an organization’s efficiency and
           effectiveness. <br></br>I have trained and have the necessary skills
-          to become a Software Developer. I will continue to upskill myself to
-          meet industry standards and write reliable, user-friendly code.{' '}
-          <br></br>A young mind with sharp focus and willingness to learn to
-          develop software to meet an organization’s needs, highlights its core
-          competencies, and further its success.
+          to become a Software Developer. Growth and progress are of utmost
+          importance to me; hence, continuously upskilling myself to meet the
+          industry’s demands and standards and write reusable, user-friendly
+          code. <br></br>A young mind with sharp focus and willingness to learn
+          to develop software to meet an organization’s needs, highlights its
+          core competencies, and further its success.
         </p>
       </div>
       <img
