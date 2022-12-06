@@ -18,6 +18,12 @@ export default [
     link: 'https://observersnotebook.netlify.app/',
   },
   {
+    title: 'React Pokedex',
+    imgUrl: '/assets/pokedex.jpg',
+    stack: ['HTML', 'CSS', 'JavaScript', 'React'],
+    link: 'https://absalipande-pokedex.vercel.app/',
+  },
+  {
     title: 'React Portfolio',
     imgUrl: '/assets/portfolio.jpg',
     stack: ['HTML', 'CSS', 'JavaScript', 'React'],
