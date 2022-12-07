@@ -27,12 +27,12 @@ export default [
     title: 'React Portfolio',
     imgUrl: '/assets/portfolio.jpg',
     stack: ['HTML', 'CSS', 'JavaScript', 'React'],
-    link: '',
+    link: 'https://absalipande-portfolio.vercel.app/',
   },
   {
     title: 'User Management System',
-    imgUrl: '/assets/mern-stack-app.jpg',
+    imgUrl: '/assets/mern-app.jpg',
     stack: ['HTML', 'CSS', 'JavaScript', 'MERN'],
-    link: '',
+    link: 'https://mern-app-frontend.onrender.com/',
   },
 ];
