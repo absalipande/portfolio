@@ -3,14 +3,14 @@ import React from 'react';
 function Intro() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('public/AmielBrencisSalipande_CV.pdf').then((response) => {
+    fetch('AmielBrencisSalipande_CV.pdf').then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = 'public/AmielBrencisSalipande_CV.pdf';
+        alink.download = 'AmielBrencisSalipande_CV.pdf';
         alink.click();
       });
     });
