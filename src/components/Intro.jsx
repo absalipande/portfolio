@@ -3,17 +3,19 @@ import React from 'react';
 function Intro() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('AmielBrencisSalipande_CV.pdf').then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'AmielBrencisSalipande_CV.pdf';
-        alink.click();
-      });
-    });
+    fetch('Amiel Brencis Salipande_FullStackDev_MERN_2022.pdf').then(
+      (response) => {
+        response.blob().then((blob) => {
+          // Creating new object of PDF file
+          const fileURL = window.URL.createObjectURL(blob);
+          // Setting various property values
+          let alink = document.createElement('a');
+          alink.href = fileURL;
+          alink.download = 'Amiel Brencis Salipande_FullStackDev_MERN_2022.pdf';
+          alink.click();
+        });
+      }
+    );
   };
   return (
     <div id="intro" className="flex justify-center items-center flex-col py-20">
@@ -26,7 +28,7 @@ function Intro() {
           An aspiring Software Developer
         </p>
         <a
-          href="public/AmielBrencisSalipande_CV.pdf"
+          href="public/Amiel Brencis Salipande_FullStackDev_MERN_2022.pdf"
           target="_blank"
           onClick={onButtonClick}
           className="inline-block  md:mb-5 px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 md:text-md"
@@ -37,6 +39,7 @@ function Intro() {
       <div className="flex flex-wrap justify-center gap-2">
         <a
           href="https://twitter.com/amieljara"
+          target="_blank"
           className="bg-stone-900 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
         >
           <svg
@@ -50,6 +53,7 @@ function Intro() {
         </a>
         <a
           href="https://www.linkedin.com/in/amiel-brencis-salipande-4785301b6/"
+          target="_blank"
           className="bg-stone-900 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
         >
           <svg
@@ -65,6 +69,7 @@ function Intro() {
         </a>
         <a
           href="https://github.com/absalipande"
+          target="_blank"
           className="bg-stone-900 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
         >
           <svg
