@@ -24,19 +24,19 @@ function Intro() {
           HELLO, I'M{' '}
           <span className="text-pink-600">AMIEL BRENCIS SALIPANDE</span>
         </h1>
-        <p className="text-md md:text-2xl md:mb-5 text-black dark:text-white">
+        <p className="text-md md:text-2xl md:mb-5 text-black dark:text-white py-3">
           An aspiring Software Developer
         </p>
         <a
           href="public/Amiel Brencis Salipande_FullStackDev_MERN_2022.pdf"
           target="_blank"
           onClick={onButtonClick}
-          className="inline-block  md:mb-5 px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 md:text-md"
+          className="inline-block  md:mb-9 px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 md:text-md"
         >
           Connect with Me
         </a>
       </div>
-      <div className="flex flex-wrap justify-center gap-2">
+      <div className="flex flex-wrap justify-center gap-2 py-4">
         <a
           href="https://twitter.com/amieljara"
           target="_blank"
