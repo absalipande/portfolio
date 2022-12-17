@@ -33,6 +33,6 @@ export default [
     title: 'User Management System',
     imgUrl: '/assets/mern-app.jpg',
     stack: ['HTML', 'CSS', 'JavaScript', 'MERN'],
-    link: 'https://mern-app-frontend.onrender.com/',
+    link: 'https://user-management-system-coral.vercel.app/',
   },
 ];
