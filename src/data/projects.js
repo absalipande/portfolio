@@ -18,6 +18,12 @@ export default [
     link: 'https://observersnotebook.netlify.app/',
   },
   {
+    title: 'React Weather Application',
+    imgUrl: '/assets/weatherApp.png',
+    stack: ['JavaScript', 'React'],
+    link: 'https://react-weather-app-eight-beta.vercel.app/',
+  },
+  {
     title: 'React Pokedex',
     imgUrl: '/assets/pokedex.jpg',
     stack: ['HTML', 'CSS', 'JavaScript', 'React'],
