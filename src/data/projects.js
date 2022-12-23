@@ -35,4 +35,10 @@ export default [
     stack: ['HTML', 'CSS', 'JavaScript', 'MERN'],
     link: 'https://user-management-system-coral.vercel.app/',
   },
+  {
+    title: 'Eatstagram',
+    imgUrl: '/assets/eatstagram.png',
+    stack: ['HTML', 'CSS', 'JavaScript', 'MERN'],
+    link: 'https://proj6-fe.onrender.com/',
+  },
 ];
