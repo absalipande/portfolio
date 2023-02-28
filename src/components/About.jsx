@@ -14,11 +14,12 @@ function About() {
           innovative software that will help an organization’s efficiency and
           effectiveness. <br />
           <br />
-          Growth and progress are of utmost importance to me; hence,
-          continuously upskilling myself to meet the industry’s demands and
-          standards and write reusable, user-friendly code. <br /> As a
-          motivated and focused individual with a strong desire to learn, I am
-          confident in my ability to develop software solutions that enhances an
+          Growth and progress are of utmost importance to me; hence, I am
+          continuously upskilling to meet the industry’s demands and standards
+          and write reusable, user-friendly code. <br />
+          <br />
+          As a motivated and focused individual with a strong desire to learn, I
+          am confident in developing software solutions that enhance an
           organization’s core competencies and contribute to its success.
         </p>
       </div>
