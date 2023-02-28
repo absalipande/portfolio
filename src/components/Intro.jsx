@@ -30,7 +30,7 @@ function Intro() {
           An aspiring Software Developer
         </p>
         <a
-          href='public/Amiel Brencis Salipande_FullStackDev_MERN_2022.pdf'
+          href='Salipande_Amiel Brencis_resume.pdf'
           target='_blank'
           onClick={onButtonClick}
           className='inline-block  md:mb-9 px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 md:text-md'
