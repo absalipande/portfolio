@@ -3,7 +3,7 @@ import React from 'react';
 function Intro() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('Amiel Brencis Salipande_FullStackDev_MERN_2022.pdf').then(
+    fetch('Salipande_Amiel Brencis_resume.pdf').then(
       (response) => {
         response.blob().then((blob) => {
           // Creating new object of PDF file
@@ -11,7 +11,7 @@ function Intro() {
           // Setting various property values
           let alink = document.createElement('a');
           alink.href = fileURL;
-          alink.download = 'Amiel Brencis Salipande_FullStackDev_MERN_2022.pdf';
+          alink.download = 'Salipande_Amiel Brencis_resume.pdf';
           alink.click();
         });
       }
