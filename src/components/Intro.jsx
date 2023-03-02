@@ -3,7 +3,7 @@ import React from 'react';
 function Intro() {
   const onButtonClick = async () => {
     try {
-      const response = await fetch('Salipande_Amiel Brencis_resume.pdf');
+      const response = await fetch('public\assets\Salipande_Amiel Brencis_resume.pdf');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -11,7 +11,7 @@ function Intro() {
       const fileUrl = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = fileUrl;
-      link.download = 'Salipande_Amiel Brencis_resume.pdf';
+      link.download = 'public\assets\Salipande_Amiel Brencis_resume.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -30,7 +30,7 @@ function Intro() {
           An aspiring Software Developer
         </p>
         <a
-          href='Salipande_Amiel Brencis_resume.pdf'
+          href='assets\Salipande_Amiel Brencis_resume.pdf'
           target='_blank'
           onClick={onButtonClick}
           className='inline-block  md:mb-9 px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 md:text-md'
