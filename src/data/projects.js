@@ -47,4 +47,10 @@ export default [
     stack: ['HTML', 'CSS', 'JavaScript', 'MERN'],
     link: 'https://proj6-fe.onrender.com/',
   },
+  {
+    title: 'Twitter-Clone',
+    imgUrl: '/assets/twitter.png',
+    stack: ['React', 'NextJS', 'Prisma', 'MongoDB'],
+    link: 'https://twitter-clone-proj.vercel.app/',
+  },
 ];
