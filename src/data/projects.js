@@ -50,7 +50,13 @@ export default [
   {
     title: 'Twitter-Clone',
     imgUrl: '/assets/twitter.png',
-    stack: ['React', 'NextJS', 'Prisma', 'MongoDB'],
+    stack: ['TypeScript', 'NextJS', 'Prisma', 'MongoDB'],
     link: 'https://twitter-clone-proj.vercel.app/',
+  },
+  {
+    title: 'Netflix-Clone',
+    imgUrl: '/assets/netflix-clone.png',
+    stack: ['TypeScript', 'NextJS', 'Prisma', 'MongoDB'],
+    link: 'https://netflix-clone-proj.vercel.app/',
   },
 ];
